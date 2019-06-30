@@ -1,0 +1,12 @@
+name: ncurses5box
+version: 0.1
+type: main
+platform: ubuntu@18.04
+description: ncurses5 box
+keywords:
+  - gcc
+  - ncurses
+script: |
+  sudo apt-get update
+  sudo apt-get install -y make gcc libncurses5-dev
+  sudo apt-get clean
